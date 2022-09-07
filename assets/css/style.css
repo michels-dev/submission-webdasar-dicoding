@@ -1,0 +1,134 @@
+/* awal */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+
+h2, h3 {
+    color: #1F4690;
+}
+
+p {
+    text-indent: 2em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+#letter-spaccing {
+    letter-spacing: 4px;    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #F0F0F0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+/* akhir awal */
+
+/* header */
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #398AB9;
+    background-image: repeating-linear-gradient(#74959A, #98B4AA);
+    text-align: center;
+    color: black;
+}
+/* akhir header */
+
+/* navbar */
+nav {
+    background-color: #78938A;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #F0F0F0;
+}
+nav ul li a:hover {
+    font-weight: bold;
+    color: whitesmoke;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+/* akhir navbar */
+
+/* image */
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    transition: transfrom .2s;
+    border-radius: 5px;
+
+}
+
+.featured-image:hover {
+    transform: scale(1.1);
+}
+/* akhir image */
+
+
+html {
+    scroll-behavior: smooth;
+}
+/* main */
+main {
+    padding: 20px;
+    overflow: auto;
+}
+/* akhir main */
+
+/* content */
+.content {
+    float: right;
+    width: 70%;
+    padding: 10px;
+}
+/* akhir content */
+
+/* aside */
+aside {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.profile {
+    text-align: center;
+}
+/* akhir aside */
+
+/* footer */
+footer {
+    padding: 15px;
+    color: whitesmoke;
+    background-color: #78938A;
+    text-align: center;
+    font-weight: bold;
+}
+/* akhir footer */
+
+/* responsive */
+@media screen and (max-width: 1000px) {
+    .content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+/* akhir responsive */
